@@ -1,42 +1,135 @@
+
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Mi primera web</title>
-</head>
-<body>
-    <h1>Hola, soy Kevin!</h1>
-    <p>Esta es mi primera web desde Monlau.</p>
-    <!doctype html>
 <html lang="es">
 <head>
- <meta charset="UTF-8">
- <title>Mi rincón digital</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Mora - Mi mundo deportivo</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #222;
+            margin: 25px;
+        }
+
+        header {
+            background-color: #123c69;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #dce8f2;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 10px;
+            color: #123c69;
+        }
+
+        section {
+            background-color: white;
+            padding: 16px;
+            margin-bottom: 15px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
 </head>
+
 <body>
- <h1>Hola, me llamo Kevin</h1>
- <p>Esta es mi primera pagina web
+
+    <!-- Cabecera de mi página -->
+    <header>
+        <h1>Hola, soy Kevin Mora</h1>
+        <p>Bienvenido a mi mundo deportivo y personal.</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="personal.html">Sobre mí</a>
+        <a href="historia.html">Historia de HTML</a>
+        <a href="favoritos.html">Mis favoritos</a>
+    </nav>
+
+    <main>
+
+        <!-- Primera sección: presentación -->
+        <section>
+            <h2>Sobre mí</h2>
+            <p>
+                Me llamo Kevin Mora y tengo 26 años.
+                Me interesa la tecnología y estoy aprendiendo
+                a crear páginas web con HTML.
+            </p>
+        </section>
+
+        <!-- Segunda sección: mis aficiones -->
+        <section>
+            <h2>Lo que disfruto</h2>
+            <p>
+                Me gusta mucho ver fútbol porque disfruto
+                los partidos, los goles y la emoción de los equipos.
+                También me gusta leer porque puedo aprender
+                cosas nuevas y conocer otras ideas.
+            </p>
+
+            <img src="img/futbol.jpg"
+                 alt="Un campo de fútbol"
+                 width="300">
+
+            <p>
+                <a href="https://www.fifa.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Visitar la página oficial de la FIFA
+                </a>
+            </p>
+
+            <p>
+                <a href="https://www.goodreads.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Descubrir libros en Goodreads
+                </a>
+            </p>
+        </section>
+
+        <!-- Tercera sección: mi objetivo -->
+        <section>
+            <h2>Lo que quiero aprender</h2>
+            <p>
+                Me gustaría crear una página web donde pueda
+                consultar marcadores deportivos, resultados
+                de fútbol y partidos de diferentes equipos.
+                Quiero aprender a organizar la información
+                para que sea fácil de consultar.
+            </p>
+
+            <img src="img/marcadores.jpg"
+                 alt="Marcador de un partido de fútbol"
+                 width="300">
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Página creada por Kevin Mora para aprender HTML.</p>
+    </footer>
+
 </body>
 </html>
-    <header>
- <h1>Pagina de Kevin>
- <p>Estoy empezando a estudiar informática.</p>
- </header>
- <main>
- <section>
- <h2>Biografia</h2>
- <p>Estudio DAW y me gusta descubrir cómo funcionan las webs.</p>
- </section>
- <section>
- <h2>ver peliculas</h2>
- <p>Me gusta la música y ver deportes.</p>
- </section>
- <section>
- <h2>Web para todos los deportes</h2>
- <p>Quiero crear una pagina para apuestas .</p>
- </section>
- </main>
- <footer>
- <p>Página creada por Kevin
-
-<img src="img/all_deportes.jpg" alt="Un teclado que uso para estudiar" width="350">
-     
